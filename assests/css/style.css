@@ -564,6 +564,22 @@ img {
     width: 80%;
 }
 
+.skills__nlp {
+    width: 80%;
+}
+
+.skills__sentiment {
+    width: 90%;
+}
+
+.skills__topic {
+    width: 80%;
+}
+
+.skills__web_scraping {
+    width: 85%;
+}
+
 .skills__close .skills__list {
     height: 0;
     overflow: hidden;
