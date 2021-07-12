@@ -155,6 +155,7 @@
                     <p class="about__description">
                         I am a final year student pursuing Bachelor of Technology in Computer Science. My fields of
                         interest are web Development and machine learning. I have done various projects and internship
+                        in
                         these fields and looking further to pursue career in the same.<br>
                         Apart from these all I hold good communication and presentation skills. I can work comfortably
                         as an
@@ -699,7 +700,7 @@
         <!-- PORTFOLIO -->
         <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">My recent Work</span>
+            <span class="section__subtitle">My Recent Work</span>
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
@@ -708,13 +709,13 @@
                         <img src="assests/img/portfolio1.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Modern Website</h3>
-                            <p class="portfolio__description">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aspernatur fugit ab harum distinctio voluptatem exercitationem debitis
-                                iste optio molestiae laudantium!
+                            <h3 class="portfolio__title">Visa Consultancy Website</h3>
+                            <p class="portfolio__description">A online web portal for visa Consultancy which includes
+                                all the information of visa available and details information of each of them along.
+                                <b>Tech Stack: </b>HTML, CSS, JavaScript, BootStrap
                             </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <a href="https://victoredutech.netlify.com/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -726,21 +727,23 @@
                         <img src="assests/img/portfolio2.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Brand Designing</h3>
+                            <h3 class="portfolio__title">Sentiment Analysis & Topic Modelling to Group Reviews from
+                                Flipkart</h3>
                             <p class="portfolio__description">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aspernatur fugit ab harum distinctio voluptatem exercitationem debitis
-                                iste optio molestiae laudantium!
+                                A deep learning model which scrap reviews of any products from Flipkart and perform
+                                topic modelling and anticipate
+                                its sentiment using VADER tool and in Python.
                             </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
-                                Demo
+                            <a href="https://github.com/manojkumar1022/Topic-Modelling-to-Group-Reviews-From-Flipkart"
+                                target="_blank" class="button button--flex button--small portfolio__button">
+                                Source Code
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
                     </div>
 
                     <!-- PORTFOLIO 3 -->
-                    <div class="portfolio__content grid swiper-slide">
+                    <!-- <div class="portfolio__content grid swiper-slide">
                         <img src="assests/img/portfolio3.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -755,7 +758,7 @@
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- ADD ARROWS -->
@@ -917,30 +920,31 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="" name="contact" class="contact__form grid" method="POST" data-netlify="true">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" class="contact__input" name="name">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" class="contact__input" name="email">
                         </div>
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Project</label>
-                        <input type="text" class="contact__input">
+                        <label for="" class="contact__label">Subject</label>
+                        <input type="text" class="contact__input" name="subject">
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea id="" cols="0" rows="7" class="contact__input" name="message"></textarea>
                     </div>
                     <div>
-                        <a href="#" class="button button--flex">
-                            Send Message
-                            <i class="uil uil-message button__icon"></i>
-                        </a>
+                        <input type="submit" class="button button--flex" value="Send Message">
+                        <!-- <a href="#" class="button button--flex"> -->
+                        <!-- Send Message -->
+                        <i class="uil uil-message button__icon"></i>
+                        <!-- </a> -->
                     </div>
                 </form>
 
