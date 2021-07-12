@@ -937,6 +937,25 @@ img {
     padding: .25rem .5rem .5rem 0;
 }
 
+.button.button--flex.contact_form_submit {
+    border: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    padding-right: 42px;
+}
+
+.pos_relative {
+    position: relative;
+}
+
+.icon__submit {
+    position: absolute;
+    left: 133px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
 
 /* FOOTER  */
 .footer {
